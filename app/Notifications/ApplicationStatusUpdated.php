@@ -36,9 +36,5 @@ class ApplicationStatusUpdated extends Notification
             ->line('Thank you for using our job portal!');
     }
 
-    // Optional: If you want to queue the email (if your application requires this), you can implement ShouldQueue.
-    // public function shouldQueue()
-    // {
-    //     return true;
-    // }
+    
 }
